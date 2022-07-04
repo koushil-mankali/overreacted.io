@@ -1,15 +1,15 @@
 ---
-title: Why Do React Hooks Rely on Call Order?
+title: React Hooks కాల్ ఆర్డర్‌పై ఎందుకు ఆధారపడతాయి?
 date: '2018-12-13'
 spoiler: Lessons learned from mixins, render props, HOCs, and classes.
 cta: 'react'
 ---
 
-At React Conf 2018, the React team presented the [Hooks proposal](https://reactjs.org/docs/hooks-intro.html).
+Reatc Conf 2018లో, React బృందం హుక్స్ ప్రతిపాదనను సమర్పించింది. [Hooks proposal](https://reactjs.org/docs/hooks-intro.html).
 
-If you’d like to understand what Hooks are and what problems they solve, check out [our talks](https://www.youtube.com/watch?v=dpw9EHDh2bM) introducing them and [my follow-up article](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889) addressing common misconceptions.
+హుక్స్ అంటే ఏమిటో మరియు అవి ఏ సమస్యలను పరిష్కరిస్తాయో మీరు అర్థం చేసుకోవాలనుకుంటే, తనిఖీ చేయండి [our talks](https://www.youtube.com/watch?v=dpw9EHDh2bM) వాటిని పరిచయం చేయడం మరియు [my follow-up article](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889) సాధారణ అపోహలను పరిష్కరించడం.
 
-Chances are you won’t like Hooks at first:
+మీరు మొదట్లో Hooks ని ఇష్టపడకపోవచ్చు:
 
 ![Negative HN comment](./hooks-hn1.png)
 
